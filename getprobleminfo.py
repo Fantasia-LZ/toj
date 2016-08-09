@@ -60,8 +60,8 @@ path=path+'info.txt'
 url='http://acm.tju.edu.cn/toj/list.php?vol=1'
 
 par={
-    'user_id':      '781595099',
-    'passwd':       '781595099',
+    'user_id':      username,
+    'passwd':       password,
     'login':        '+Login+'
 }
 page=post(url,urllib.urlencode(par))
